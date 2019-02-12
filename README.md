@@ -1,11 +1,3 @@
-A simple procedure for classifying households when only given the ages of each member in the household
+Home for bits and pieces of code from various data science projects that I've worked on. Most of these relate to urban geography, travel behaviour, or transportation in some way or another. This is pretty much a collection of stuff that I want to have easy access to, but are too small to warrant their own repository.
 
-First, it takes a table of individuals with a household columns and generates lists for each household with the ages of its members. e.g. `[4,8,38,39,67]`
-
-Then it loops over each list, returning the percent of household members in different age groups (e.g. 0-17, 18-30, etc.). Finally households are categorized into the following:
-
-- 'single_person' - single person living alone
-- 'one_gen' - two or more people of the same generation living together (e.g. couple, roommates)
-- 'two_gen', - two generations in the same household (e.g. typical family with children)
-- 'mutli_gen', - three generations in the same household (e.g. children, parents, and grandparents)
-- 'other' - anything else
+jeff.allen@utoronto.ca
